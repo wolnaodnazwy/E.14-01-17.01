@@ -48,6 +48,9 @@
 
     </section>
     <?php
+      wynik1 -> free();
+      wynik2 -> free();
+      wynik3 -> free();
       mysqli_close($conn);
     ?>
     <section id="stopka">
